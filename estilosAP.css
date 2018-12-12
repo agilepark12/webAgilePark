@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+
+.textopri{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    display: flex;
+    
+} 
+h4{
+    color: whitesmoke;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 80px;
+    letter-spacing: 2.5px;
+    margin-top: 10px;
+    color: #00cccc;
+
+}
+.inicio{
+    background: url(../images/automobile.jpg)   no-repeat;
+    background-size: 120%;
+    text-decoration: none;
+    min-height: 100vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    flex-wrap: wrap;
+
+}
+.footer{
+    align-self: flex-end;
+    text-align:center;
+    width: 50%;
+    height: 200px;
+    background: rgba(0,0,0,0.80);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: activeborder;
+    border-radius: 0 3px 3px 0;
+    letter-spacing: 1.5px;
+    padding: 12px 12px;  
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.7);
+    font-style: oblique;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.footer2{
+    align-self: flex-end;
+    text-align:center;
+    width: 50%;
+    height: 200px;
+    background: rgba(0,0,0,0.80);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: activeborder;
+    border-radius: 0 3px 3px 0;
+    letter-spacing: 1.5px;
+    padding: 12px 12px;  
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.7);
+    font-style: oblique;
+    margin-top: 100px;
+    margin-left: 500px
+}
+.foo{
+    display: inline-block;
+}
+
+.azul{
+    
+}
+ul{
+    list-style:none;
+}
+
+.ing > li {
+    float: right;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.7);
+}
+
+.ing li a {
+    background-color: rgba(0, 0, 0, 0.57);
+    color:#dddddd;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 70px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: x-large;
+    border-radius: 0 3px 3px 0;
+}
+
+.ing li ul {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+
+.ing li:hover > ul {
+    display: block;
+}
+
+.green > li {
+    float: left;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.7);
+}
+
+.green li a {
+    background-color:rgba(0, 0, 0, 0.57);
+    color:#dddddd;
+    text-decoration: none;
+    display:inline-block;
+    padding: 20px 70px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:x-large;
+    border-radius:0 3px 3px 0;
+}
+
+
+.green li a:hover{
+    background:rgba(0, 0, 0, 0.80);
+}
+
+.green li ul{
+    display:none;
+    position: absolute; 
+    min-width:160px;
+}
+.green li:hover > ul{
+    display:block;
+}
+
+* {
+    box-sizing: border-box
+}
+.pie{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style:italic;
+}
+/* Formulario pagina inicio sesion*/
+
+.bodini{
+    background: url("../images/car-gto.jpg") no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    margin: auto;
+
+}
+.formu_ini{
+    margin: auto;
+    width: 280px;
+    max-width: 100%;
+    height: 340px;
+    background: rgba(0,0,0,0.80);
+    margin-top: 0;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.7);
+    position: relative;
+}
+.boxini{
+    text-align: center;
+    background-color: #00cccc;
+    display: block;
+    padding: 12px 0;
+}
+.texini{
+    text-align: center;
+    display: block;
+    padding: 12px 46px;
+    border: 2px solid dimgrey;
+    color: #666666
+}
+.texini[type="text"]{
+    background: url(../images/log.png)  4px no-repeat;
+}
+.texini[type="password"]{
+    background: url(../images/clave.png) 4px no-repeat;
+}
+.texini[name="Documento"]{
+    background: url(../images/num.png)9px no-repeat;
+}
+
+.inpin{
+    cursor: pointer;
+    background: #00cccc;
+    padding: 8px 46px;
+    margin-left: 25px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.1);
+    border: none;
+}
+.volver{
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    background-color:rgba(0, 0, 0, 0.80);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style:italic;
+    margin-left: 85%;
+    color: activeborder;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    border: none;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.57);
+}
+
+
